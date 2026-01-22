@@ -65,7 +65,9 @@ export default function App(): JSX.Element {
           <div className="code-grid">
             <div>
               <div className="label">Install</div>
-              <pre><code>{`npm install hedera-data-publisher`}</code></pre>
+              <pre><code>{`git clone https://github.com/rayenharhouri/hedera-data-publisher.git
+cd hedera-data-publisher
+npm install`}</code></pre>
             </div>
             <div>
               <div className="label">Create a topic</div>
